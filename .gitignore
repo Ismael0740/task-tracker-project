@@ -1,0 +1,34 @@
+# Ignorar archivos compilados de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignorar carpetas de compilación y dependencias
+/target/
+/bin/
+/build/
+/out/
+/.gradle/
+/.mvn/
+
+# Ignorar archivos de configuración de IDE
+/.vscode/
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de entorno
+.env
+*.env
+
+# Ignorar archivos de Checkstyle (si no quieres subirlos)
+/checkstyle.xml
